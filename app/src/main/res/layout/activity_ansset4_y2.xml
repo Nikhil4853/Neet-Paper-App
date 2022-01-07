@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="10dp"
+    android:background="#EFE3A8"
+    tools:context=".ANSSET4Y2020">
+<com.github.barteksc.pdfviewer.PDFView
+    android:id="@+id/As4y2020"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

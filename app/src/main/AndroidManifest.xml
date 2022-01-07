@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.neetpaper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon3rd"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon3rd"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NeetPaper">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ANSSET1Y2016"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet1y2016"
+            android:exported="true" />
+        <activity
+            android:name=".Paper2016"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET4Y2017"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet4y2017"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET3Y2017"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet3y2017"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET2Y2017"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet2y2017"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET1Y2017"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet1y2017"
+            android:exported="true" />
+        <activity
+            android:name=".Paper2017"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET1Y2018"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet12018"
+            android:exported="true" />
+        <activity
+            android:name=".Paper2018"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet3y2019"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet2y2019"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet1Y2019"
+            android:exported="true" />
+        <activity
+            android:name=".Paper2019"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET4Y2020"
+            android:exported="true"
+            android:label="@string/title_activity_ansset4_y2020"
+            android:theme="@style/Theme.NeetPaper.NoActionBar" />
+        <activity
+            android:name=".PS4Y2020"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET3Y2020"
+            android:exported="true" />
+        <activity
+            android:name=".PS3Y2020"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET2Y2020"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet2Y2020"
+            android:exported="true" />
+        <activity
+            android:name=".ANSSET12020"
+            android:exported="true" />
+        <activity
+            android:name=".PaperSet1"
+            android:exported="true" />
+        <activity
+            android:name=".Paper2020"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

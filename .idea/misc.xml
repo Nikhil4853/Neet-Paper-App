@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset12020.xml" value="0.19791666666666666" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset1_y2016.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset1_y2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset1_y2018.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset2_y2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset2_y2020.xml" value="0.19384057971014493" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset3_y2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset3_y2020.xml" value="0.19384057971014493" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset4_y2.xml" value="0.19384057971014493" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset4_y2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ansset4_y2020.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper2016.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper2018.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper2019.xml" value="0.18" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper2020.xml" value="0.18" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set1.xml" value="0.19010416666666666" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set12018.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set1_y2019.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set1y2016.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set1y2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set2_y2020.xml" value="0.19791666666666666" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set2y2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set2y2019.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set3y2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set3y2019.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_paper_set4y2017.xml" value="0.1897644927536232" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ps3_y2020.xml" value="0.19384057971014493" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_ps4_y2020.xml" value="0.19384057971014493" />
+        <entry key="..\:/kotlinProjects/neetPaper/NeetPaper/app/src/main/res/layout/activity_splash_screen.xml" value="0.18645833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
