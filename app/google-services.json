@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "123791219714",
+    "project_id": "neet-e5e2a",
+    "storage_bucket": "neet-e5e2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123791219714:android:398c37b31e6a47e37b9b1b",
+        "android_client_info": {
+          "package_name": "com.example.neetpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123791219714-k3u8pg0ccjmhemes00jk5bhf3vr9vbnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9HeNNyw18MgtWDg8WnY-prBoFtvvEjE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123791219714-k3u8pg0ccjmhemes00jk5bhf3vr9vbnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    android:background="#EFE3A8"
+    android:background="#fff"
     tools:context=".ANSSET12020">
 <com.github.barteksc.pdfviewer.PDFView
     android:id="@+id/ANSSET1Y2020pdf"
