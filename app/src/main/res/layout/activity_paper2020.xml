@@ -8,6 +8,7 @@
 
     android:padding="10dp"
     tools:context=".Paper2020">
+
     <androidx.cardview.widget.CardView
 
         android:id="@+id/card1Set1y2020"

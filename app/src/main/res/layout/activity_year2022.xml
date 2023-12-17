@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Year2022">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/card1Set1y2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#EFB5B1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
+            tools:ignore="MissingConstraints">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutSet1y2022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/ImageSet1y2022"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/s"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    />
+                <TextView
+
+                    android:id="@+id/TextSet1y2022"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="            Set 1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet1y2022"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <Button
+                    android:id="@+id/openSet1y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="paper ->"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet1y2022"
+                    app:layout_constraintTop_toBottomOf="@id/TextSet1y2022" />
+                <Button
+                    android:id="@+id/ansSet1y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:text="ans"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toRightOf="@+id/openSet1y2022"
+                    app:layout_constraintTop_toBottomOf="@+id/TextSet1y2022"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2Set2y2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#BEEAB9"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintTop_toBottomOf="@id/card1Set1y2022"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutSet2y2022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/ImageSet2y2022"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/s"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/TextSet2y2022"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="            Set 2"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet2y2022"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <Button
+                    android:id="@+id/openSet2y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="Paper ->"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet2y2022"
+                    app:layout_constraintTop_toBottomOf="@id/TextSet2y2022" />
+                <Button
+                    android:id="@+id/ansSet2y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:text="ans"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toRightOf="@+id/openSet2y2022"
+                    app:layout_constraintTop_toBottomOf="@+id/TextSet2y2022"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3Set3y2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#EFB5B1"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintTop_toBottomOf="@id/card2Set2y2022"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layout2022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/ImageSet3y2022"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/s"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/TextSet3y2022"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="            Set 3"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet3y2022"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <Button
+                    android:id="@+id/openSet3y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="paper ->"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet3y2022"
+                    app:layout_constraintTop_toBottomOf="@id/TextSet3y2022" />
+                <Button
+                    android:id="@+id/ansSet3y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:text="ans"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toRightOf="@+id/openSet3y2022"
+                    app:layout_constraintTop_toBottomOf="@+id/TextSet3y2022"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4Set4y2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/card3Set3y2022"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#BEEAB9"
+            tools:ignore="MissingConstraints">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutSet4y2022"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/ImageSet4y2022"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+
+                    android:src="@drawable/s"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/TextSet4y2022"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="            Set 4"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet4y2022"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <Button
+                    android:id="@+id/openSet4y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="paper ->"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet4y2022"
+                    app:layout_constraintTop_toBottomOf="@id/TextSet4y2022" />
+                <Button
+                    android:id="@+id/ansSet4y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:text="ans"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toRightOf="@+id/openSet4y2022"
+                    app:layout_constraintTop_toBottomOf="@+id/TextSet4y2022"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/card5Set5y2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#EFB5B1"
+            app:layout_constraintTop_toBottomOf="@id/card4Set4y2022"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp"
+            tools:ignore="MissingConstraints">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutSet5y2022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/ImageSet5y2022"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/s"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    />
+                <TextView
+
+                    android:id="@+id/TextSet5y2022"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="            Set 5"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet5y2022"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <Button
+                    android:id="@+id/openSet5y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="paper ->"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet5y2022"
+                    app:layout_constraintTop_toBottomOf="@id/TextSet5y2022" />
+                <Button
+                    android:id="@+id/ansSet5y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:text="ans"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toRightOf="@+id/openSet5y2022"
+                    app:layout_constraintTop_toBottomOf="@+id/TextSet5y2022"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card6Set6y2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#BEEAB9"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintTop_toBottomOf="@id/card5Set5y2022"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutSet6y2022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/ImageSet6y2022"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/s"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/TextSet6y2022"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="            Set 6"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet6y2022"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <Button
+                    android:id="@+id/openSet6y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="Paper ->"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet6y2022"
+                    app:layout_constraintTop_toBottomOf="@id/TextSet6y2022" />
+                <Button
+                    android:id="@+id/ansSet6y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:text="ans"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toRightOf="@+id/openSet6y2022"
+                    app:layout_constraintTop_toBottomOf="@+id/TextSet6y2022"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card7Set7y2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#EFB5B1"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintTop_toBottomOf="@id/card6Set6y2022"
+            android:layout_marginTop="20dp"
+            tools:ignore="MissingConstraints">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/ImageSet7y2022"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/s"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/TextSet7y2022"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="            Set 7"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet7y2022"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <Button
+                    android:id="@+id/openSet7y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="paper ->"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet7y2022"
+                    app:layout_constraintTop_toBottomOf="@id/TextSet7y2022" />
+                <Button
+                    android:id="@+id/ansSet7y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:text="ans"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toRightOf="@+id/openSet7y2022"
+                    app:layout_constraintTop_toBottomOf="@+id/TextSet7y2022"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card8Set4y2022"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/card7Set7y2022"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#BEEAB9"
+            tools:ignore="MissingConstraints">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutSet8y2022"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:civ_border_width="2dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/ImageSet8y2022"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+
+                    android:src="@drawable/s"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/TextSet8y2022"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="            Set 8"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet8y2022"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <Button
+                    android:id="@+id/openSet8y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="70dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="paper ->"
+                    app:layout_constraintLeft_toRightOf="@id/ImageSet8y2022"
+                    app:layout_constraintTop_toBottomOf="@id/TextSet8y2022" />
+                <Button
+                    android:id="@+id/ansSet8y2022"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:text="ans"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toRightOf="@+id/openSet8y2022"
+                    app:layout_constraintTop_toBottomOf="@+id/TextSet8y2022"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

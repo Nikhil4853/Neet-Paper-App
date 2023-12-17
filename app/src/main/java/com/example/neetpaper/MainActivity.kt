@@ -16,7 +16,10 @@ val intent=Intent(this,Paper2023::class.java)
             Toast.makeText(applicationContext,"Opening",Toast.LENGTH_LONG ).show()
         }
         btn2022.setOnClickListener {
-
+val intent=Intent(this, Year2022::class.java)
+            startActivity(intent)
+            Toast.makeText(applicationContext,"Opening",Toast.LENGTH_LONG).show()
+            startActivity(intent)
         }
         btn2021.setOnClickListener{
             val intent=Intent(this, Paper2021::class.java)
