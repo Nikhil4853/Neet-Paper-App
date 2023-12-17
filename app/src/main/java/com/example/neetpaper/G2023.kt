@@ -12,6 +12,7 @@ class G2023 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_g2023)
+
         openG1.setOnClickListener {
             val intent= Intent(applicationContext,G2023Paper::class.java)
             intent.putExtra("key","G1")

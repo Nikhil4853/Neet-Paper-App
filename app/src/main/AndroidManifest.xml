@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NeetPaper">
         <activity
+            android:name=".H2023Paper"
+            android:exported="false" />
+        <activity
             android:name=".G2023Paper"
             android:exported="false" />
         <activity

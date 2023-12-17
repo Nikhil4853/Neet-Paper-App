@@ -4,6 +4,329 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context=".H2023">
+    <androidx.cardview.widget.CardView
 
+        android:id="@+id/card1H1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#EFB5B1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        tools:ignore="MissingConstraints">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutH1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
+                android:id="@+id/ImageH1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/s"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                />
+            <TextView
+
+                android:id="@+id/TextH1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="             H 1"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/ImageH1"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <Button
+                android:id="@+id/openH1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="64dp"
+
+                android:layout_marginTop="4dp"
+                android:text="Paper with answer"
+                app:layout_constraintLeft_toRightOf="@id/ImageH1"
+                app:layout_constraintTop_toBottomOf="@id/TextH1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardH2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#BEEAB9"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@id/card1H1"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutH2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
+                android:id="@+id/ImageH2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/s"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/TextH2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="             G 2"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/ImageH2"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <Button
+                android:id="@+id/openH2"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="64dp"
+
+                android:layout_marginTop="4dp"
+                android:text="Paper with answer"
+                app:layout_constraintLeft_toRightOf="@id/ImageH2"
+                app:layout_constraintTop_toBottomOf="@id/TextH2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardH3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#EFB5B1"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@id/cardH2"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutH3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
+                android:id="@+id/ImageH3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/s"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/TextH3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="             H 3"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/ImageH3"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <Button
+                android:id="@+id/openH3"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="64dp"
+
+                android:layout_marginTop="4dp"
+                android:text="Paper with answer"
+                app:layout_constraintLeft_toRightOf="@id/ImageH3"
+                app:layout_constraintTop_toBottomOf="@id/TextH3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardH4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cardH3"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#BEEAB9"
+        tools:ignore="MissingConstraints">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutH4"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
+                android:id="@+id/ImageH4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:src="@drawable/s"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/TextH4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="             H 4"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/ImageH4"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <Button
+                android:id="@+id/openH4"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="64dp"
+
+                android:layout_marginTop="4dp"
+                android:text="Paper with answer"
+                app:layout_constraintLeft_toRightOf="@id/ImageH4"
+                app:layout_constraintTop_toBottomOf="@id/TextH4" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardH5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cardH4"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#EFB5B1"
+        tools:ignore="MissingConstraints">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutH5"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
+                android:id="@+id/ImageH5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:src="@drawable/s"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/TextH5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="             H 5"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/ImageH5"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <Button
+                android:id="@+id/openH5"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="64dp"
+
+                android:layout_marginTop="4dp"
+                android:text="Paper with answer"
+                app:layout_constraintLeft_toRightOf="@id/ImageH5"
+                app:layout_constraintTop_toBottomOf="@id/TextH5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardH6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cardH5"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#BEEAB9"
+        tools:ignore="MissingConstraints">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutH6"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
+                android:id="@+id/ImageH6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:src="@drawable/s"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/TextH6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="             G 6"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/ImageH6"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <Button
+                android:id="@+id/openH6"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="64dp"
+
+                android:layout_marginTop="4dp"
+                android:text="Paper with answer"
+                app:layout_constraintLeft_toRightOf="@id/ImageH6"
+                app:layout_constraintTop_toBottomOf="@id/TextH6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
