@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context=".Paper2021">
     <androidx.cardview.widget.CardView
 
@@ -21,8 +22,9 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-            <ImageView
-                android:scaleType="centerCrop"
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
                 android:id="@+id/ImageSet1y2021"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
@@ -87,8 +89,9 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-            <ImageView
-                android:scaleType="centerCrop"
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
                 android:id="@+id/ImageSet2y2021"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
@@ -147,8 +150,9 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-            <ImageView
-                android:scaleType="centerCrop"
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
                 android:id="@+id/ImageSet3y2021"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
@@ -209,8 +213,9 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-            <ImageView
-                android:scaleType="centerCrop"
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
                 android:id="@+id/ImageSet4y2021"
                 android:layout_width="80dp"
                 android:layout_height="80dp"

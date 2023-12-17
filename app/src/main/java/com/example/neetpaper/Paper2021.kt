@@ -12,25 +12,25 @@ class Paper2021 : AppCompatActivity() {
         setContentView(R.layout.activity_paper2021)
         openSet1y2021.setOnClickListener {
             val intent = Intent(this, Paper::class.java)
-            intent.putExtra("key","set1")
+            intent.putExtra("key","set1y2021")
             startActivity(intent)
             Toast.makeText(this, "Opening", Toast.LENGTH_SHORT).show()
         }
         openSet2y2021.setOnClickListener {
             val intent = Intent(this, Paper::class.java)
-            intent.putExtra("key","set2")
+            intent.putExtra("key","set2y2021")
             startActivity(intent)
             Toast.makeText(this, "Opening", Toast.LENGTH_SHORT).show()
         }
         openSet3y2021.setOnClickListener {
             val intent = Intent(this, Paper::class.java)
-            intent.putExtra("key","set3")
+            intent.putExtra("key","set3y2021")
             startActivity(intent)
             Toast.makeText(this, "Opening", Toast.LENGTH_SHORT).show()
         }
         openSet4y2021.setOnClickListener {
             val intent = Intent(this, Paper::class.java)
-            intent.putExtra("key","set4")
+            intent.putExtra("key","set4y2021")
             startActivity(intent)
             Toast.makeText(this, "Opening", Toast.LENGTH_SHORT).show()
         }

@@ -22,7 +22,9 @@
             android:layout_height="wrap_content"
             android:padding="10dp">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:civ_border_width="2dp"
                 android:scaleType="centerCrop"
                 android:id="@+id/ImageSet1y2018"
                 android:layout_width="80dp"
@@ -37,7 +39,7 @@
                 android:id="@+id/TextSet1y2018"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="       Set1Year2018"
+                android:text="       Set 1"
                 android:textSize="25dp"
                 android:layout_marginLeft="10dp"
                 android:textStyle="bold"

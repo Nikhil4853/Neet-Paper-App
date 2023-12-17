@@ -10,7 +10,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        btn2023.setOnClickListener {
+val intent=Intent(this,Paper2023::class.java)
+            startActivity(intent)
+            Toast.makeText(applicationContext,"Opening",Toast.LENGTH_LONG ).show()
+        }
+        btn2022.setOnClickListener {
 
+        }
         btn2021.setOnClickListener{
             val intent=Intent(this, Paper2021::class.java)
             Toast.makeText(applicationContext,"Opening",Toast.LENGTH_LONG).show()
