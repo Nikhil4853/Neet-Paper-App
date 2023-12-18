@@ -10,8 +10,26 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        btn2023.setOnClickListener {
+val intent=Intent(this,Paper2023::class.java)
+            startActivity(intent)
+            Toast.makeText(applicationContext,"Opening",Toast.LENGTH_LONG ).show()
+        }
+        btn2022.setOnClickListener {
+val intent=Intent(this, Year2022::class.java)
+            startActivity(intent)
+            Toast.makeText(applicationContext,"Opening",Toast.LENGTH_LONG).show()
+            startActivity(intent)
+        }
+        btn2021.setOnClickListener{
+            val intent=Intent(this, Paper2021::class.java)
+            Toast.makeText(applicationContext,"Opening",Toast.LENGTH_LONG).show()
+            startActivity(intent)
+
+        }
+
         btn2020.setOnClickListener{
-val intent = Intent(this, Paper2020::class.java)
+            val intent = Intent(this, Paper2020::class.java)
             Toast.makeText(applicationContext, "Opening", Toast.LENGTH_LONG).show()
             startActivity(intent)
         }
@@ -32,7 +50,7 @@ val intent = Intent(this, Paper2020::class.java)
             startActivity(paper2017)
         }
         btn2016.setOnClickListener {
-            Toast.makeText(applicationContext, "", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Opening", Toast.LENGTH_SHORT).show()
             val paper2016=Intent(this,Paper2016::class.java)
             startActivity(paper2016)
         }

@@ -13,23 +13,23 @@ class Paper2017 : AppCompatActivity() {
 
         // paper set1 and ans
         paperSet1y2017.setOnClickListener {
-            Toast.makeText(applicationContext, "I Love you jaan", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Opening", Toast.LENGTH_SHORT).show()
             val ps1y2017 = Intent(this, PaperSet1y2017::class.java)
             startActivity(ps1y2017)
         }
         ansSet1y2017.setOnClickListener {
-            Toast.makeText(applicationContext, "I Love you jaan", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Opening", Toast.LENGTH_SHORT).show()
             val as1y2017 = Intent(this, ANSSET1Y2017::class.java)
             startActivity(as1y2017)
         }
         // paper set2 and ans
         paperSet2y2017.setOnClickListener {
-            Toast.makeText(applicationContext, "I Love you jaan", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Opening", Toast.LENGTH_SHORT).show()
             val ps2y2017= Intent(this,PaperSet2y2017::class.java)
             startActivity(ps2y2017)
         }
         ansSet2y2017.setOnClickListener {
-            Toast.makeText(applicationContext, "I Love you jaan", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Opening", Toast.LENGTH_SHORT).show()
             val as2y2017=Intent(this,ANSSET2Y2017::class.java)
             startActivity(as2y2017)
         }
